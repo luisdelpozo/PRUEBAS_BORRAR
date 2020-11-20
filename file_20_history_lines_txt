@@ -1,0 +1,20 @@
+ll
+cat Finn.txt | head -5 | wc -w
+head -5 Finn.txt | wc -w
+cat -n Text_example.txt | head -3
+cat -n Text_example.txt > Text_example_Num.txt
+less Text_example_Num.txt
+cat -n Text_example.txt Text_example.txt > Text_example.txt.x2
+less Text_example.txt.x2
+gedit README.md
+cd..
+cd 
+cat /etc/os-release
+date --help
+date
+echo "This file is created by LMP on: $date" > file_with_info.txt
+less file_with_info.txt
+echo $date
+echo "This file is created by LMP on: $(date)" > file_with_info.txt
+less file_with_info.txt
+tail -20 .history > file_20_history_lines_txt
